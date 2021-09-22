@@ -32,7 +32,7 @@ header {
 .input--div input {
   width: 50%;
   height: 2rem;
-  border: 1px solid black;
+  border: 1px solid #ff7878;
   border-radius: 5px;
   padding-left: 0.5rem;
 }
