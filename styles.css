@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #cee5d0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+.container {
+  padding-bottom: 2.5rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  margin: 2.5rem 0;
+}
+
+.bill-amt {
+  margin: 1rem;
+  font-weight: 700;
+}
+.input--div input {
+  width: 40%;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+.input--div button {
+  padding: 0.5rem;
+  margin-top: 1em;
+  background-color: E0C097;
+  border-radius: 5px;
+  min-width: 10%;
+}
+
+#div--calculate {
+  display: none;
+}
+
+#error-message {
+  margin: 1rem;
+  color: red;
+  display: none;
+}
+
+.table-div {
+  display: none;
+}
+.table-div table {
+  margin: 1.5rem auto;
+  border-spacing: 0;
+  border: 1px solid;
+}
+
+.table--mainCol {
+  background-color: #f3f0d7;
+}
+
+.table-div table caption {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.table-div th,
+td {
+  border: 1px solid black;
+  width: 0%;
+}
+
+footer {
+  /* margin-top: 2.5em; */
+  margin-top: auto;
+  display: block;
+  width: 100%;
+  background-color: #ff7878;
+  bottom: 0;
+  box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
+}
+
+.footer--heading {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 1.5rem;
+}
+
+.footer--logo {
+  margin: 0.7rem 1.5rem;
+}
+
+@media only screen and (min-width: 430px) {
+  .table-div table {
+    width: 80%;
+  }
+}

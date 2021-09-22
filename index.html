@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+      <header><h1>Cash Register App</h1></header>
+      <div>
+          <p>Enter the bill amount and cash given by customer and know minimum number of notes to return.</p>
+      </div>
+			<div class="input--div">
+				<p class="bill-amt">Bill Amount</p>
+				<p><input id="input--bill" type="text" placeholder="Enter total bill amount" /></p>
+				<p><button id="btn-check">Check</button></p>
+				<p id="error-message"></p>
+				<div id = "div--calculate">
+					<p class="bill-amt">Cash Given</p>
+					<p><input id="input--amount" type="text" placeholder="Enter total amount given" /></p>
+					<p><button id="btn-calculate">Calculate</button></p>
+				</div>
+			</div>
+			<div class="table-div">
+				<table>
+					<caption>Cash to be returned</caption>
+					<thead>
+						<tr>
+							<th class="table--mainCol">No of Notes</th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+							<th class="notes-number"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="table--mainCol">Note</td>
+							<td>2000</td>
+							<td>500</td>
+							<td>100</td>
+							<td>50</td>
+							<td>20</td>
+							<td>10</td>
+							<td>5</td>
+							<td>1</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+    </div>
+    <footer>
+			<div class = "footer--heading">
+					<p>Connect with me on !</p>
+			</div>
+			<div class = "footer--container" >
+					<div class="row">
+							<a class="footer--logo" href="https://mobile.twitter.com/pratik_bagmare" target="blank">
+									<img title="pratik_bagmare" src="images/twitter.png" alt="twitter" >
+							</a>
+							<a class="footer--logo" href="https://www.linkedin.com/in/pratikbagmare" target="blank">
+									<img title="pratikbagmare" src="images/linkedin.png" alt="twitter" >
+							</a>
+							<a class="footer--logo" href="https://www.github.com/pratikb0501" target="blank">
+									<img title="pratikb0501" src="images/github.png" alt="twitter" >
+							</a>
+							
+					</div>
+			</div>
+	</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
